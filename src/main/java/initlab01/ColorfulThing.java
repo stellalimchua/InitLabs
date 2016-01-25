@@ -3,17 +3,21 @@ package initlab01;
 /**
  * Created by Stella on 1/21/16.
  */
+
+enum Color {SPARKLE, LAVENDER, COCOA}
+
 public class ColorfulThing {
 
-    protected String color;
+    Color color;
 
-    public ColorfulThing(String colorIn) {
-        this.color = colorIn;
+    public ColorfulThing(Color color){
+        this.color = color;
     }
 
-    public String getColor() {
+    public Color getColor() {
         return color;
     }
+
 
 
 }

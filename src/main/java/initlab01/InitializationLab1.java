@@ -11,17 +11,20 @@ public class InitializationLab1 {
         BoringThing tiger = new BoringThing();
         BoringThing necklace = new BoringThing();
 
-        ColorfulThing redObject = new ColorfulThing("red");
+        /*ColorfulThing redObject = new ColorfulThing("red");
         ColorfulThing orangeObject = new ColorfulThing("orange");
         ColorfulThing yellowObject = new ColorfulThing("yellow");
         ColorfulThing greenObject = new ColorfulThing("green");
-        ColorfulThing blueObject = new ColorfulThing("blue");
+        ColorfulThing blueObject = new ColorfulThing("blue");*/
 
-        System.out.println(redObject.getColor());
-        System.out.println(greenObject.getColor());
-        System.out.println(orangeObject.getColor());
-        System.out.println(yellowObject.getColor());
-        System.out.println(blueObject.getColor());
+        ColorfulThing lavObject = new ColorfulThing(Color.LAVENDER);
+        ColorfulThing cocoaObject = new ColorfulThing(Color.COCOA);
+        ColorfulThing sparkleObject = new ColorfulThing(Color.SPARKLE);
+
+
+        System.out.println(sparkleObject.getColor());
+        System.out.println(cocoaObject.getColor());
+        System.out.println(lavObject.getColor());
     }
 }
 
